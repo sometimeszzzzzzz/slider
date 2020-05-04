@@ -1,4 +1,4 @@
-slider uwu
+slider
 ======
 
 Utilities for working with `osu! <https://osu.ppy.sh/>`_ files and data.
