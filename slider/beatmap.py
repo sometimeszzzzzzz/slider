@@ -1465,7 +1465,7 @@ class Beatmap:
 
         if stacking:
 
-            ar = self.ar(easy=easy, hard_rock=hard_rock, half_time=half_time, double_time=double_time)
+            ar = self.ar(easy=easy, hard_rock=hard_rock)
             stack_threshold = timedelta(milliseconds=ar_to_ms(ar) * (self.stack_leniency * 10))
             stack_distance = 3
 
