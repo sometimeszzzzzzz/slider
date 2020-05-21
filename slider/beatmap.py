@@ -1458,10 +1458,6 @@ class Beatmap:
 
         if hard_rock:
             hit_objects = [ob.hard_rock for ob in hit_objects]
-        if double_time:
-            hit_objects = [ob.double_time for ob in hit_objects]
-        elif half_time:
-            hit_objects = [ob.half_time for ob in hit_objects]
 
         if stacking:
             if self.format_version >= 6:
