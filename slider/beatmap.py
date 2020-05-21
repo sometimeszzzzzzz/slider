@@ -1463,7 +1463,7 @@ class Beatmap:
             if self.format_version >= 6:
 
                 ar = self.ar(easy=easy, hard_rock=hard_rock)
-                stack_threshold = timedelta(milliseconds=ar_to_ms(ar) * (self.stack_leniency * 10))
+                stack_threshold = timedelta(milliseconds=ar_to_ms(ar) * (self.stack_leniency))
                 stack_distance = 3
 
                 for i in reversed(range(len(hit_objects))):
