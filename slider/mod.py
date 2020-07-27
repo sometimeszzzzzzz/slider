@@ -146,9 +146,7 @@ def circle_radius(cs):
     radius : float
         The radius in osu! pixels.
     """
-    # return (512 / 16) * (1 - 0.7 * (cs - 5) / 5)
-    # for matching stable
-    return 54.4223 - 4.48184 * cs
+    return (512 / 16) * (1 - 0.7 * (cs - 5) / 5)
     
 
 
