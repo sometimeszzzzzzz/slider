@@ -147,7 +147,6 @@ def circle_radius(cs):
         The radius in osu! pixels.
     """
     return (512 / 16) * (1 - 0.7 * (cs - 5) / 5)
-    
 
 
 class HitWindows(namedtuple('HitWindows', 'hit_300, hit_100, hit_50')):
